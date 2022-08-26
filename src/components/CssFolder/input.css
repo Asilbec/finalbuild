@@ -1,0 +1,40 @@
+.inputContainer{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.inputContainer h1{
+    margin-bottom: 10px;
+}
+
+.inputContainer h3{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.inputContainer div{
+    margin-top: 10px;
+}
+
+#submitButton{
+    margin-top: 15px;
+}
+
+.capture{
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+    .inputContainer{
+      margin-top: 20px;
+    }
+  }
